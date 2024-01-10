@@ -20,6 +20,29 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+### Prerequisites
+
+Node Version 14.x
+
+### Setup .env file
+
+```bash
+DATABASE_URL= (mongoDB : https://www.mongodb.com/fr-fr/cloud/atlas/lp/try4)
+NEXTAUTH_SECRET=
+
+NEXT_PUBLIC_PUSHER_APP_KEY= (See https://cloudinary.com/ and copy paste pusher_app key)
+PUSHER_APP_ID= (See https://cloudinary.com/ and copy paste app_id key)
+PUSHER_SECRET= (See https://cloudinary.com/ and copy paste secret key)
+
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME= (See https://cloudinary.com/ and copy paste cloud name)
+
+GITHUB_ID= (See https://github.com and copy paste ID key)
+GITHUB_SECRET= (See https://github.com and copy paste secret key)
+
+GOOGLE_CLIENT_ID= (See https://google.com/ and copy paste client ID)
+GOOGLE_CLIENT_SECRET= (See https://google.com/ and copy paste client secret)
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
