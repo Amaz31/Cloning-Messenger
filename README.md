@@ -29,8 +29,23 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Key Features:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Real-time messaging using Pusher  
+- Message notifications and alerts  
+- Tailwind design for sleek UI  
+- Tailwind animations and transition effects  
+- Full responsiveness for all devices  
+- Credential authentication with NextAuth  
+- Google authentication integration  
+- Github authentication integration  
+- File and image upload using Cloudinary CDN  
+- Client form validation and handling using react-hook-form  
+- Server error handling with react-toast  
+- Message read receipts  
+- Online/offline user status  
+- Group chats and one-on-one messaging  
+- Message attachments and file sharing  
+- User profile customization and settings    
