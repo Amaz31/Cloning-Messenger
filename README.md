@@ -43,6 +43,18 @@ GOOGLE_CLIENT_ID= (See https://google.com/ and copy paste client ID)
 GOOGLE_CLIENT_SECRET= (See https://google.com/ and copy paste client secret)
 ```
 
+### Setup Prisma
+
+```bash
+npx prisma db push
+```
+
+### Start app
+
+```bash
+npm run dev
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
